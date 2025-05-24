@@ -1,0 +1,4 @@
+root = true
+
+[*.{rs,css,json}]
+indent_size = 2
