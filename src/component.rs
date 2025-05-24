@@ -32,7 +32,7 @@ pub fn InstallMods() -> Element {
       "game is file:{}",
       install_context().game_path.to_string_lossy()
     );
-    let kmf_instance = kmf::kmf::Kmf::try_from_config(&kmf::Config {
+    let kmf_instance = kmf::Kmf::try_from_config(&kmf::Config {
       cache_dir: ProjectDirs::from("com", "zerodegress", "kmf-installer")
         .expect("it should be ok")
         .cache_dir()
