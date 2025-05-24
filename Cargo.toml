@@ -10,7 +10,7 @@ edition = "2021"
 anyhow = "1.0.98"
 dioxus = { version = "0.6.0", features = [] }
 directories = "6.0.0"
-kmf = { git = "https://github.com/KorabliModForce/kmf", rev = "64694edbe894764dffa69497229a3f0ca4a3d436", version = "0.1.1" }
+kmf = { git = "https://github.com/KorabliModForce/kmf", rev = "0b77003f62d3b8a2ef1960cf98c77523e29f6842", version = "0.1.1" }
 native-dialog = { version = "0.9.0", features = ["async"] }
 tokio = { version = "1.45.0", features = ["tracing", "full"] }
 tracing = "0.1.41"

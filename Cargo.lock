@@ -2894,7 +2894,7 @@ dependencies = [
 [[package]]
 name = "kmf"
 version = "0.1.1"
-source = "git+https://github.com/KorabliModForce/kmf?rev=64694edbe894764dffa69497229a3f0ca4a3d436#64694edbe894764dffa69497229a3f0ca4a3d436"
+source = "git+https://github.com/KorabliModForce/kmf?rev=0b77003f62d3b8a2ef1960cf98c77523e29f6842#0b77003f62d3b8a2ef1960cf98c77523e29f6842"
 dependencies = [
  "async-trait",
  "async_zip",
